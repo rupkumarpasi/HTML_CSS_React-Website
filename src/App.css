@@ -1,0 +1,460 @@
+body {
+    margin: 0;
+    padding: 0;
+background-color: white;
+}
+
+/* nav-section */
+nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 6vmin;
+    background-color: black;
+    color: white;
+}
+
+.nav-section {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    height: 6vmin;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-market {
+    padding-top: 0.1vmin;
+}
+
+.nav-logo img {
+    width: 3vmin;
+}
+
+.nav-buy {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buy button {
+    width: 15vmin;
+    height: 4vmin;
+    font-size: 2vmin;
+    text-align: center;
+}
+
+/* navbar section */
+.navbar-heading {
+    width: 100vw;
+    height: 8vh;
+
+    /* padding: 1vh 1.5vmin; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 90vw;
+    height: 7vh;
+    /* border: 2px solid blue;
+     */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nabar-logo {
+    width: 20%;
+
+}
+
+.navbar-content {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 3vmin;
+}
+
+.navbar-content ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    /* border: 2px solid blue; */
+}
+
+.navbar-content>ul>li {
+    list-style: none;
+    font-size: 2vmin;
+}
+
+.navbar-contact {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-contact>button {
+    padding: 1vmin 2vmin;
+    border-radius: 20px;
+    border: none;
+    font-size: 2vmin;
+}
+
+.callus {
+    font-size: 2vmin;
+}
+
+
+
+
+/* heor section */
+.hero-section {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-element {
+    /* width: 50vw; */
+    display: flex;
+    gap: 2vmin;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-para {
+    width: 45vmin;
+  text-align: center;
+}
+.hero-button{
+display: flex;
+gap: 3vmin;
+}
+.hero-button button{
+    border-radius: 20px;
+}
+
+
+.trust-path{
+    padding-top: 2vmin;
+    text-align: center;
+}
+
+
+
+/* image part section */
+/* Base styles for all devices */
+.image-part-section,.hero-after-main-section{
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.image-part, .hero-after-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-part1 ,.hero-after-first-box{
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    min-height: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+#part1{
+    background-image: url('https://askproject.net/invie/wp-content/uploads/sites/228/2025/05/company-finance-staff-preparing-financial-document-BHFZTA5.jpg');
+background-size: cover;
+}
+#part2{
+    background: linear-gradient(#b4c0b4, #294547);
+}
+
+/* Button Styling */
+#part2 .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 40%;
+    cursor: pointer;
+}
+
+/* Quote Section */
+#part3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+#part3 .part3-para {
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.part3-img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.part3-imgbox {
+    width: 50px;
+    height: 50px;
+    background-image: url('./rup.jpg');
+    background-size: cover;
+    /* background-color: #ddd; */
+    border-radius: 50%;
+}
+
+/* Description Box */
+.part3-discription-box .name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.part3-discription-box .intro {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsive Styles */
+/* @media (max-width: 900px) {
+    .image-part{
+        flex-wrap: wrap;
+    }
+    .image-part1{
+width: 270px;
+     min-height:  450px ;   
+    }
+
+} */
+
+
+
+
+/* hero-after-main-section */
+
+ .hero-after-main-section{
+   padding: 50px 20px 0px 20px;
+} 
+
+.hero-after-section{
+    padding: 10px 0px;
+    background-color: #e5e5de;
+    height: auto;
+}
+#hero-after-left-box{
+    background-image: url('https://askproject.net/invie/wp-content/uploads/sites/228/2025/05/businesswoman-explaining-data-oin-report-P7TH7RX.jpg');
+background-size: cover;
+background-position: center;
+}
+#hero-after-Right-box{
+    padding: 30px;
+}
+.aboutinvie{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.heading{
+    text-transform: capitalize;
+}
+.lorem-para{
+    color: #2d2f2f;
+}
+.hero-after-tick-section{
+    padding: 20px 0px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.checkbox{
+    /* width: 40px;
+    height: 40px; */
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #c0f96b;
+}
+.button1 span{
+    margin: 4px;
+}
+.learn-more{
+    padding:20px 0px;
+    
+}
+.learn-more>button{
+    /* padding: 0px 10px; */
+    width: 150px;
+    border-radius: 20px;
+}
+
+.heading-part-heading{
+    font: 26px;
+    font-family: instrumental-serif;
+}
+.image-part1-box{
+    padding: 3vmin;
+    border-radius: 10px;
+    background: linear-gradient(#b4c0b4, #294547);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#image-padding1{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddddda;
+
+}
+.image-part1-box1{width: 100%;
+    border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+    background-color: white;
+    padding:3vmin;
+}
+.image-part1-box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+   
+    padding: 10px;
+
+}
+
+.image-part1-box3{
+/* display: flex; */
+
+}
+.image-part1-box3 p {
+  font-size: 15px;
+  line-height: 1.2; 
+ 
+}
+.image-part1-box4{
+padding: 3px 10px;
+background-color: #c0f96b;
+border-radius: 4px;
+}
+
+/* start of description section */
+
+
+.description-main-section{
+      width: 84vw;
+      margin: auto;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    
+}
+
+.description-section{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.description-button{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.description-upper-part, .description-lower-part{
+ width: 100%;
+    display:flex;
+     box-sizing: border-box;
+}
+
+.upper-part-box{
+   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+   border: 1px solid rgb(227, 221, 221);
+   padding: 20px;
+  
+ 
+  background-color: rgb(255, 255, 255); 
+}
+
+  .description-upper-part > div:not(:last-child) {
+    border-right: none;
+  }
+
+  .heading-part-heading{
+    text-transform: capitalize;
+  }
+
+@media (max-width: 768px) {
+    .navbar{
+        width: 100%;
+    }
+    .image-part {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .image-part1{
+      min-height: 450px;
+        width: 80vw;
+    }
+
+    #part2 .btn {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #part3 .part3-para {
+        font-size: 16px;
+    }
+
+    .part3-imgbox {
+        width: 40px;
+        height: 40px;
+    }
+
+    .part3-discription-box .intro {
+        font-size: 13px;
+    }
+    .hero-after-section{
+        display: flex;
+        flex-direction: column;
+    }
+    #image-padding1{
+        gap: 30px;
+    }
+    .description-upper-part, .description-lower-part{
+        flex-direction: column;
+    }
+}
+
+
